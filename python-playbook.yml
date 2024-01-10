@@ -1,0 +1,7 @@
+- name: install python 3 
+  hosts: python_servers #must match with the name on the inventory file
+  become: yes
+
+  roles:
+    - python
+

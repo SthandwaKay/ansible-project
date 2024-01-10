@@ -1,0 +1,6 @@
+- name: install java
+  hosts: java_servers
+  become: yes #root or admin
+
+  roles:
+    - java

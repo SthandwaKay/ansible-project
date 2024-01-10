@@ -1,0 +1,6 @@
+
+  - name: install python  3
+    apt:
+      name: python3
+      state: present
+    # notify: Restart Nginx  # Notify the handler to restart Nginx

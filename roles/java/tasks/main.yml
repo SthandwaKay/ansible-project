@@ -1,0 +1,5 @@
+- name: Install Java
+  become: yes  # This is often required for installing packages
+  apt:
+    name: default-jdk  # The package name might vary depending on the OS and version
+    state: present
